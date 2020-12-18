@@ -9,6 +9,7 @@
 		checksum.proto
 		executor.proto
 		expression.proto
+		lab.proto
 		metadata.proto
 		schema.proto
 		select.proto
@@ -44,6 +45,8 @@
 		Expr
 		RpnExpr
 		ByItem
+		NextApplyIdxRequest
+		NextApplyIdxResponse
 		InUnionMetadata
 		CompareInMetadata
 		TableInfo
